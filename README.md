@@ -1,7 +1,7 @@
 # Compensate
 
 ## Link for downloading app
-[Download App](https://i.diawi.com/ZFwjRA)
+[Download App](https://tiny.app.link/b67OMQHlM6)
 
 ## Demo
 ![](Demo.gif)
