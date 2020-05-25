@@ -1,7 +1,7 @@
 # Compensate
 
 ## Application architecture
-Application is built base on MVVM + Dependencies Injection architecture to respect SOLID principle
+Application is built base on MVVM + Dependencies Injection architecture to respect SOLID principle (ModelViewViewModel)
 
 ### ViewModel 
 - Handles data (talking to the api)
