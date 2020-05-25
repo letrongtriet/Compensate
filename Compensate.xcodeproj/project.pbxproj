@@ -55,6 +55,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		250BF426247C20D500A29F88 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				25A12FC82479C183003BCC9D /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		250BF427247C20DE00A29F88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25A12FCE247B9614003BCC9D /* PostTableViewCell.swift */,
+				2593FDA6247BB115002E734A /* PaddingLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		250BF428247C20E400A29F88 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				252CD2552479B4A900631438 /* RootViewController.swift */,
+				25A12FC42479BB60003BCC9D /* PostsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		250BF429247C20E900A29F88 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				25A12FCA247B0631003BCC9D /* PostsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		250BF42A247C20F800A29F88 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				25A12FCC247B085F003BCC9D /* UITableView+Extension.swift */,
+				2593FDA2247BA7CA002E734A /* UIImageView+Extension.swift */,
+				2593FDA8247BB270002E734A /* String+Extension.swift */,
+				2593FDAA247BC377002E734A /* Number+Extension.swift */,
+				2593FDA4247BAE32002E734A /* ImageCache.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		250BF42B247C212300A29F88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25A12FC62479BD30003BCC9D /* SubReddit.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		252CD2332479B1A600631438 = {
 			isa = PBXGroup;
 			children = (
@@ -78,18 +132,12 @@
 				252CD2482479B1A700631438 /* Assets.xcassets */,
 				252CD24A2479B1A700631438 /* LaunchScreen.storyboard */,
 				252CD24D2479B1A700631438 /* Info.plist */,
-				252CD2552479B4A900631438 /* RootViewController.swift */,
-				25A12FC42479BB60003BCC9D /* PostsViewController.swift */,
-				25A12FC62479BD30003BCC9D /* SubReddit.swift */,
-				25A12FC82479C183003BCC9D /* NetworkManager.swift */,
-				25A12FCA247B0631003BCC9D /* PostsViewModel.swift */,
-				25A12FCC247B085F003BCC9D /* UITableView+Extension.swift */,
-				25A12FCE247B9614003BCC9D /* PostTableViewCell.swift */,
-				2593FDA2247BA7CA002E734A /* UIImageView+Extension.swift */,
-				2593FDA4247BAE32002E734A /* ImageCache.swift */,
-				2593FDA6247BB115002E734A /* PaddingLabel.swift */,
-				2593FDA8247BB270002E734A /* String+Extension.swift */,
-				2593FDAA247BC377002E734A /* Number+Extension.swift */,
+				250BF42B247C212300A29F88 /* Model */,
+				250BF42A247C20F800A29F88 /* Extension */,
+				250BF429247C20E900A29F88 /* ViewModel */,
+				250BF428247C20E400A29F88 /* ViewController */,
+				250BF427247C20DE00A29F88 /* Views */,
+				250BF426247C20D500A29F88 /* Network */,
 			);
 			path = Compensate;
 			sourceTree = "<group>";
