@@ -8,7 +8,6 @@ Application is built base on MVVM + Dependencies Injection architecture to respe
 - Observes app and server events.
 - Business logic
 - Typically comes as a together with a ViewController
-- Communicated "back" to the Coordinator using the delegate pattern.
 ### View
 - Typically a UIViewController
 - Handles the view
